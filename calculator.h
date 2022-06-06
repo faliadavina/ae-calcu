@@ -8,6 +8,7 @@
 
 #include <string.h>
 #include <windows.h>
+#include <math.h>
 #include "binarytree.h"
 #include "stack.h"
 #include "pajak.h"

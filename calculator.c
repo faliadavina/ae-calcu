@@ -158,6 +158,7 @@ void calcuDasar(){
 	String input, postfix;
 	addrTree t;
 	char ulang = 'y';
+	double result;
 	
 	do{
 		// Algoritma
@@ -194,7 +195,14 @@ void calcuDasar(){
 		}
 		InfixToPostfix(input, postfix);
 		t = insertNode(postfix);
-		gotoxy(21, 5); printf("= %0.2f", calculateTree(t));
+		result = calculateTree(t);
+		
+		// Jika hasil kalkulasi berupa desimal
+		if(ceil(result) > result){
+			gotoxy(21, 5); printf("= %0.2f", result);
+		}else{
+			gotoxy(21, 5); printf("= %0.f", result);
+		}
 		gotoxy(70, 10); printf("Ulang perhitungan? (y/n): ");
 		fflush(stdin);
 		scanf("%c", &ulang);		
