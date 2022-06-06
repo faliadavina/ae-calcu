@@ -109,10 +109,11 @@ void bantuan(){
 	if (kembali == 'y')
 	{
 		menu();
+	}else if(kembali == 'n'){
+		bantuan();
 	}else{
 		printf("Inputan tidak valid!\n");
 		system("pause");
-		bantuan();
 	}
 	
 }
@@ -163,12 +164,12 @@ void calcuDasar(){
 		system("cls");
 		printf("\t\t\t      Kalkulator Dasar\n");
 		
-		printf("\n\n\t\tรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรร");
+		printf("\n\t\tออออออออออออออออออออออออออออออออออออออออออออออ");
 		printf("\n\t\t                                             ");
 		printf("\n\t\t                                             ");
 		printf("\n\t\t                                             ");
 		printf("\n\t\t                                             ");
-		printf("\n\t\tรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรร");
+		printf("\n\t\tออออออออออออออออออออออออออออออออออออออออออออออ");
 		printf("\n\n\t\t    \xda\xc4\xc4\xc4\xbf   \xda\xc4\xc4\xc4\xbf   \xda\xc4\xc4\xc4\xbf   \xda\xc4\xc4\xc4\xbf   \xda\xc4\xc4\xc4\xbf");
 		printf("\n\t\t    \xb3 1 \xb3   \xb3 2 \xb3   \xb3 3 \xb3   \xb3 + \xb3   \xb3 - \xb3");
 		printf("\n\t\t    \xc0\xc4\xc4\xc4\xd9   \xc0\xc4\xc4\xc4\xd9   \xc0\xc4\xc4\xc4\xd9   \xc0\xc4\xc4\xc4\xd9   \xc0\xc4\xc4\xc4\xd9");
@@ -181,7 +182,7 @@ void calcuDasar(){
 		printf("\n\n\t\t\t    \xda\xc4\xc4\xc4\xbf\t    \xda\xc4\xc4\xc4\xbf   \xda\xc4\xc4\xc4\xbf");
 		printf("\n\t\t\t    \xb3 0 \xb3\t    \xb3 ( \xb3   \xb3 ) \xb3");
 		printf("\n\t\t\t    \xc0\xc4\xc4\xc4\xd9\t    \xc0\xc4\xc4\xc4\xd9   \xc0\xc4\xc4\xc4\xd9");
-		printf("\n\n\t\tรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรร");
+		printf("\n\t\tออออออออออออออออออออออออออออออออออออออออออออออ");
 		fflush(stdin);
 		gotoxy(21, 4); scanf("%s", &input);
 		

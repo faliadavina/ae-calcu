@@ -20,7 +20,7 @@ Pajak createData(int gaji, int gajiPasangan, int status, int jml_anak, char berp
 
 /* Modul untuk menampilkan tampilan kalkulator pajak */
 Pajak calcuPajak(Pajak data){
-    int gaji, status, gajiPasangan, jml_anak;
+    int gaji = 0, status = 0, gajiPasangan = 0, jml_anak = 0;
 	char berpenghasilan; 
     String tmp;
 	 
@@ -31,7 +31,7 @@ Pajak calcuPajak(Pajak data){
 	printf("\n\xb3     Kalkulator Pajak    \xb3");
 	printf("\n\xb3                         \xb3");
 	printf("\n\xc0\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xd9");
-	printf("\n\nรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรร");
+	printf("\n\nออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ");
 	
     /* Input Gaji */
     printf("\nMasukkan Penghasilan Anda (sebulan): Rp. ");
@@ -78,7 +78,7 @@ Pajak calcuPajak(Pajak data){
             }else{
                 jml_anak = strtod(tmp, NULL);
             }
-            printf("\nรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรร\n");
+            printf("\n\nออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ");
         
         }else if(berpenghasilan == 'n' || berpenghasilan == 'N'){
             
@@ -91,7 +91,7 @@ Pajak calcuPajak(Pajak data){
             }else{
                 jml_anak = strtod(tmp, NULL);
             }
-            printf("\nรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรร\n");
+            printf("\n\nออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ");
             
 		}else{
                system("cls");
@@ -110,7 +110,7 @@ Pajak calcuPajak(Pajak data){
             }else{
                 jml_anak = strtod(tmp, NULL);
             }
-			printf("\nรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรร\n");	
+			printf("\n\nออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ");	
 		break; 
 	default: 
 		printf("Inputan yang kamu masukkan tidak valid!\n");
